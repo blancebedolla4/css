@@ -1,0 +1,118 @@
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }*,
+    *:before,
+    *:after {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }/* end of CSS reset*/
+    .container {
+        margin: 0 auto;
+        /*TRBL*/
+        padding: 0px 30px 0px 30px;
+        width: 960px;
+    }body{
+        background: #293F50
+    ;
+        color: #fff;
+        font-family: 300 Helvetica;
+    }h1{
+        font-family: 'Ephesis', cursive;
+        font-size: 36px;
+    }h1 a{
+        color: green;
+    }a{
+        text-decoration: none;
+    }h3{
+        font-size: 21px;
+    }#when{
+        float: right;
+        padding: 30px 0px 22px 0px;
+    }h5{
+        color: teal;
+    }.hero{
+        padding: 22px 80px 36px 80px;
+    }.hero h2{
+        font-family: 'Ephesis', cursive;
+        font-size: 26px;
+        color: aqua;
+        text-align: center;
+    }.hero p{
+        text-align: center;
+        padding: 5px;
+    }nav{
+        clear: both;
+    }#logo a{
+        float: left;
+        padding: 30px 0px 22px 0px;
+    }.primary-nav{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        background: maroon;
+        background: linear-gradient(#49708F
+    ,#293F50
+    );
+    }.primary-nav li{
+        display: inline-block;
+        margin-right: 20px;
+        padding: 10px;
+    }a{
+        color: #fff;
+    }a:hover{
+        color: orangered;
+    }.btn{
+        margin-top: 20px;
+        border: 2px solid orangered;
+        display: inline-block;
+    }.btn-alt{
+        border-radius: 10px;
+        padding: 10px 30px;}.container div{
+        float: left;
+        width: 33%;
+    }footer{
+        clear: both;
+    }
+
+
